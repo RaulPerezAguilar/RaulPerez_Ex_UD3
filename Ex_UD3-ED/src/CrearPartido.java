@@ -2,7 +2,7 @@
 import java.awt.event.KeyEvent;
 
 
-
+//Creacion de partido
 public class CrearPartido extends javax.swing.JFrame
 {
    
@@ -69,7 +69,7 @@ public class CrearPartido extends javax.swing.JFrame
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+//Funcion para inicicar la creacion del partido
     public void añadePartido(String p)
     {
         v.partidoNuevo(p);
